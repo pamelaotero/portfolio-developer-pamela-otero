@@ -4,17 +4,20 @@
 
 :root {
   --color-primary-light: #63b3ed;
-  --color-primary: #4299e1;
+  --color-primary: #1a1c1e;
   --color-primary-dark: #3182ce;
 
-  --color-secondary-light: #fbb6ce;
-  --color-secondary: #f687b3;
-  --color-secondary-dark: #d53f8c;
+  --color-secondary-light: #7c5ff3;
+  --color-secondary: #5f49b6;
+  --color-secondary-dark: #5e3bee;
+
+  --color-bg-light: #ededed;
 
   /* Font sizes */
   --font-small: 1rem;
   --font-medium: 1.2rem;
   --font-large: 3rem;
+  --boxShadowDefault: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,7 +46,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground); */
+  background: var(--foreground);
   font-family: "Urbanist", Arial, Helvetica, sans-serif;
 }

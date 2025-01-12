@@ -17,6 +17,7 @@ const Title: React.FC<TitleProps> = ({
         fontSize: getSizeLabel(typeSizeLabel),
         fontWeight: isBold ? "bold" : "normal",
         color: getColorLabel(typeColorLabel),
+        fontFamily: "Urbanist",
       }}
     >
       {title}

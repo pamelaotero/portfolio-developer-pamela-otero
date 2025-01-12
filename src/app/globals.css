@@ -10,12 +10,35 @@
   --color-secondary-light: #fbb6ce;
   --color-secondary: #f687b3;
   --color-secondary-dark: #d53f8c;
+
+  /* Font sizes */
+  --font-small: 1rem;
+  --font-medium: 1.2rem;
+  --font-large: 3rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+}
+
+/* Responsividade para celular */
+@media (max-width: 640px) {
+  :root {
+    --font-small: 0.8rem; /* Reduzido no celular */
+    --font-medium: 1rem;
+    --font-large: 2rem;
+  }
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  :root {
+    --font-small: 0.9rem; /* Tamanho intermediário no tablet */
+    --font-medium: 1.1rem;
+    --font-large: 2.5rem;
   }
 }
 
